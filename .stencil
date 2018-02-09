@@ -1,0 +1,12 @@
+{
+  "normalStoreUrl": "https://domino7.mybigcommerce.com/",
+  "port": 3000,
+  "clientId": "4xg4mud4mvb9s0sk6dtgdskpnv7bwbj",
+  "accessToken": "sl1ei5oab9hx6weqotqixvh3aszo92g",
+  "customLayouts": {
+    "brand": {},
+    "category": {},
+    "page": {},
+    "product": {}
+  }
+}

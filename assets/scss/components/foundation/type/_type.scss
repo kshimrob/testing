@@ -1,0 +1,141 @@
+// =============================================================================
+// TYPE (CSS)
+// =============================================================================
+
+// Stencil type component additions
+// -----------------------------------------------------------------------------
+
+
+body {
+    font-size: $body-fontSize;
+    font-weight: $body-font-weight;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2em;
+    color: black;
+}
+
+h5,
+h6 {
+    text-transform: $heading-textTransform;
+}
+
+a {
+    transition: $anchor-transition;
+}
+
+cite {
+    line-height: $blockquote-cite-lineHeight;
+    margin: $blockquote-cite-margin;
+}
+
+.page-heading {
+    margin: 0 0 spacing("double");
+    text-align: center;
+}
+
+/* Edits made by Kelly 02/09 */
+
+h1 {
+    font-family: Bevan, serif; 
+    font-size: 44px;    
+    letter-spacing: .1px;   
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 42px;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+h4 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+}
+
+h5 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+h6 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+}
+
+.subhead,
+.tag {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600; 
+    line-height: 1.2em;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300; 
+    letter-spacing: 0.25px;
+    line-height: 1.5em;
+    color: black;
+}
+
+.label-one {
+    font-family: "Fira Sans", sans-serif;
+    letter-spacing: 0.25px;
+    line-height: 1.5em;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid black;  
+}
+
+small {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: black;
+}
+
+.definitionList {
+    @include clearfix;
+}
+
+.definitionList-key {
+    color: stencilColor("color-textSecondary");
+    float: left;
+    font-weight: fontWeight("normal");
+    margin: 0 spacing("quarter") 0 0;
+}
+
+.definitionList-value {
+    margin: 0;
+}
